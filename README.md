@@ -6,6 +6,9 @@ After that you should install keras library with tensorflow backend and pygame, 
 
 
 1st: conda install python=3.6
+
+
+
 2nd: conda create --name PythonGPU (Ensure that you have a NVIDIA graphics card.)
 If you don’t, install the CPU version of Keras.
 2nd: conda create --name PythonCPU
