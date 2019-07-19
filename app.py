@@ -1,5 +1,5 @@
 import pygame
-from  process_image import get_output_image
+from  image_processing import get_output_image
 
 black = [0, 0, 0]
 white = [255, 255, 255]
