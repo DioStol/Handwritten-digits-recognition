@@ -7,7 +7,7 @@ from keras.models import load_model
 
 
 #pre trained model
-model = load_model('digit_classifier3.h5')
+model = load_model('digit_classifier2.h5')
 
 def predict_digit(img):
     test_image = img.reshape(-1,28,28,1)
