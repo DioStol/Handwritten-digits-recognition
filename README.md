@@ -2,6 +2,9 @@ Hello everyone in this project i use Pycharm and Anaconda Enviroment
 usefull link to set up pycharm and anaconda, https://medium.com/infinity-aka-aseem/how-to-setup-pycharm-with-an-anaconda-virtual-environment-already-created-fb927bacbe61
 
 After that you should install keras library with tensorflow backend and pygame, so go to anaconda terminal and follow these steps :
+
+
+
 1st: conda install python=3.6
 2nd: conda create --name PythonGPU (Ensure that you have a NVIDIA graphics card.)
 If you don’t, install the CPU version of Keras.
