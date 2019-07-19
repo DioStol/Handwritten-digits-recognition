@@ -1,5 +1,5 @@
 import pygame
-#from  process_image import get_output_image
+from  process_image import get_output_image
 
 black = [0, 0, 0]
 white = [255, 255, 255]
@@ -75,8 +75,8 @@ try:
             img = crope(screen)
             pygame.image.save(img, fname)
 
-          #  output_img = get_output_image(fname)
-            # show_output_image(output_img)
+            output_img = get_output_image(fname)
+            show_output_image(output_img)
 
         # start drawing line on screen if draw is true
         if e.type == pygame.MOUSEMOTION:
@@ -91,5 +91,3 @@ except StopIteration:
     pass
 
 pygame.quit()
-
-#pygame.quit()
