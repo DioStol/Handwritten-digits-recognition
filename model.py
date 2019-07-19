@@ -53,7 +53,7 @@ history = model.fit(X_train, y_train,epochs=5, shuffle=True,
                     batch_size = 200,validation_data= (X_test, y_test))
 
 
-model.save('digit_classifier2.h5')
+model.save('digit_classifier3.h5')
 
 
 X_train = X_train_th.reshape(-1,28,28,1)
