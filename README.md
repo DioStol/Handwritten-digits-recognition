@@ -1,4 +1,8 @@
-Hello everyone, in this project i use Pycharm and Anaconda Enviroment
+Hello everyone, 
+
+In this project I use Pycharm and Anaconda Enviroment in order to recognise digits (0 to 9) using convolution neural network.You can find a briefly description below for an easier set up of the program.\
+
+
 This is an usefull link to set up pycharm and anaconda, https://medium.com/infinity-aka-aseem/how-to-setup-pycharm-with-an-anaconda-virtual-environment-already-created-fb927bacbe61
 
 Then you should install keras library (with tensorflow backend) and pygame,  after than you should go to anaconda terminal and follow the following steps:
